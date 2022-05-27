@@ -1,0 +1,40 @@
+Array- The process of storing the multiple values of a specific data types into single variable is called an Array.
+
+3 types
+1. Single Dimensional Array- The process of arranging values either in single row / single column in a memory.
+	
+	<data type> [] <variable> = { val1,val2,val3,...........} ==> initilization process.
+			or
+	<data type>  <variable> [] = { val1,val2,val3,...........}
+
+	int x[] = {10,20,30,40,50}
+	In array every value identified with another value, that vales are called as index numbers.
+
+	
+
+2. Double Dimensional Array-  The process of arranging values in no of rows and no of columns in a memory.
+
+	<data types>[][] <variable> = {{val1,val2,val3,.....},{val4,val5,val6,.....},......};==> initilization process.
+			or
+	<data types> <variable> [][] = {{val1,val2,val3,.....},{val4,val5,val6,.....},......};
+
+	int x[][]={{10,20,30},{40,50,60}};
+	here every row and col are having their index number starts from 0,1,2,......n-1
+	to print/assign any value variable[rowindex][col index]
+
+	<data type> [][] <variable> = new <data type> [rows][cols]==> dynamic process
+			or
+	<data type>  <variable> [][] = new <data type> [rows][cols]
+
+
+3. Jagged Array- The process of different sizes of single single dimensional arrays grouping in to single array.
+		i.e., here rows are fixed, but in every row different number of columns are present.
+		
+	<data types>[][] <variable> = {{val1,val2,.....},{val3,val4,val5,.....},......};==> initilization process.
+			or
+	<data types> <variable> [][] = {{val1,val2,.....},{val3,val4,val5,.....},......};
+
+
+
+
+

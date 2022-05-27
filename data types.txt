@@ -1,0 +1,146 @@
+Data types-
+as per java there are 2 types of data types
+
+1. Value type - These data types are used to store the values directly in variable.
+	All peimitive datatypes
+	Keywords- byte, short, int, long,float.......
+
+2. Reference type- These datatypes are used to store values in the form of object.
+	All user defined data types 
+	keywords- enum, class......
+
+Variable- it is a named memory which allows to store the values tempararly.
+
+	<data type> <variable> = <value>;
+	int x = 10;
+	float y = 12.45;
+	char z = 'A';
+note- Variables can be declared anywhere in the programme before it's usage.
+-------------------------------------------------------------------------------------
+ Java input- Scanner ( pre defined class where it allows give input)
+
+1. Import.java.util.Scanner package.
+2. Create an object for this scanner class.
+	Scanner <obj name> = new scanner (System.in);
+3. It will provide set of methods to perform different actions.
+	nextInt() = int;
+	nextFloat() = float;
+ to use these all methods we have to follow below given syntax
+	Scannerclassobj.nextInt(),......
+-----------------------------------------------------------------------------------
+Operators- these are the different kinds of symbols which is having an action b/w operands.
+
+Arithemtic- +, -, /
+Relational operators- 10,50. 10<50, <, >, <=,.....
+logical - && , 
+Unary- ++
+Assignment- =, +=, 
+conditional - : (<condition> <true> : <false>)
+--------------------------------------------------------------------------------------------
+
+Control Statement-
+These statements are used to cintrol the flow of programme execution.
+3 types
+
+1. Conditional Statements- these are used to check conditions, based on true/false of statements.
+	"If statements is used to check conditions"
+
+	simple if
+		if(condition)
+		{
+			set of statements
+		}
+
+	if-else
+		if(condition)
+		{
+			set of statements
+		}
+		else
+		{
+			set of statements
+		}
+
+	else-if
+		if(condition-1)
+		{
+			set of statements-1
+		}
+		else if(condition-2)
+		{
+			set of statements-2
+		}
+	..............................	
+	..............................
+	
+	Nested if:- A if condition within another if condition without else part.
+		if(cond-1)
+		{
+			if(cond-2)
+			{
+				set of statements
+			}
+		}
+
+----------------------------------------------------------------------------------------------------
+2. Branching Statements- it is used to check multiple conditions on single variable weather value is equals or not.
+
+	switch(variable)
+	{
+		case <value-1>;
+			set of stmnts
+			break;
+		case <value-2>;
+			set of stmnts
+			break;
+		........................	
+		default: 
+			set of stmnts
+			break;
+	}
+
+-------------------------------------------------------------------------------------------------------
+
+3. Looping Statements
+ 
+ loop is the process of repeating any statement/task for n number of times.
+
+* While loop- it will repeat task until the given is true.
+
+	variable intial value 
+	while (condition)
+	{
+		set of statements
+		increament/ decreament operations
+	}
+
+...............................................................
+* do-while loop- it is same as while loop but condition will be checked at the bottom of loop 
+                 for loop
+
+
+	variable initial value
+	do
+	{
+		set of statements
+		increament / decreament operations
+	}
+	while(condition);
+.................................................
+* for loop
+
+for(initlization; condition;iteration)
+{
+	set of statements
+}
+
+...................................................
+nested loops- A loop within the loop is called as nested loop.
+
+
+
+
+
+
+
+
